@@ -21,12 +21,12 @@ void mam(struct field f){//make a move
     if(-1<n && n<f.len){
         if(0<x && x<=f.pa[n])f.pa[n]-=x;
         else{
-            printf("This heap have only %d stones\n", f.pa[n]);
+            printf("This heap has only %d stones\n", f.pa[n]);
             mam(f);
         }
     }
     else{
-        printf("There is only %d heaps\n", f.len);
+        printf("There are only %d heaps\n", f.len);
         mam(f);
     }
 }
