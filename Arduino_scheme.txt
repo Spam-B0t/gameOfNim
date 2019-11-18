@@ -1,0 +1,5 @@
+I've used I2C module to reduce the # of wires,
+but there are no dependencies on a I2C library,
+so the display can be connected the usual way.  
+  
+Buttons are connected to pin 12 and 13.
